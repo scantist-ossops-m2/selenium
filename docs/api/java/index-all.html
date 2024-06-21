@@ -323,7 +323,7 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/safari/AddHasPermissions.html#%3Cinit%3E()" class="member-name-link">AddHasPermissions()</a> - Constructor for class org.openqa.selenium.safari.<a href="org/openqa/selenium/safari/AddHasPermissions.html" title="class in org.openqa.selenium.safari">AddHasPermissions</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#addHeader(java.lang.String,java.lang.String)" class="member-name-link">addHeader(String, String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#addHeader(java.lang.String,java.lang.String)" class="member-name-link">addHeader(String, String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Adds a header with the <code>name</code> and <code>value</code>, headers with the same (case-insensitive)
  name will be preserved.</div>
@@ -920,8 +920,12 @@ loadScripts(document, 'script');</script>
 <div class="block">Represents the known architectures used in WebDriver.</div>
 </dd>
 <dt><a href="org/openqa/selenium/internal/Require.html#argument(java.lang.String,java.io.File)" class="member-name-link">argument(String, File)</a> - Static method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.html" title="class in org.openqa.selenium.internal">Require</a></dt>
-<dd>&nbsp;</dd>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated, for removal: This API element is subject to removal in a future version.</span></div>
+</dd>
 <dt><a href="org/openqa/selenium/internal/Require.html#argument(java.lang.String,java.lang.Integer)" class="member-name-link">argument(String, Integer)</a> - Static method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.html" title="class in org.openqa.selenium.internal">Require</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="org/openqa/selenium/internal/Require.html#argument(java.lang.String,java.nio.file.Path)" class="member-name-link">argument(String, Path)</a> - Static method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.html" title="class in org.openqa.selenium.internal">Require</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.html#argument(java.lang.String,T)" class="member-name-link">argument(String, T)</a> - Static method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.html" title="class in org.openqa.selenium.internal">Require</a></dt>
 <dd>&nbsp;</dd>
@@ -3895,6 +3899,10 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><a href="org/openqa/selenium/grid/node/config/NodeFlags.html#enableBiDi" class="member-name-link">enableBiDi</a> - Variable in class org.openqa.selenium.grid.node.config.<a href="org/openqa/selenium/grid/node/config/NodeFlags.html" title="class in org.openqa.selenium.grid.node.config">NodeFlags</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="org/openqa/selenium/chromium/ChromiumOptions.html#enableBiDi()" class="member-name-link">enableBiDi()</a> - Method in class org.openqa.selenium.chromium.<a href="org/openqa/selenium/chromium/ChromiumOptions.html" title="class in org.openqa.selenium.chromium">ChromiumOptions</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="org/openqa/selenium/firefox/FirefoxOptions.html#enableBiDi()" class="member-name-link">enableBiDi()</a> - Method in class org.openqa.selenium.firefox.<a href="org/openqa/selenium/firefox/FirefoxOptions.html" title="class in org.openqa.selenium.firefox">FirefoxOptions</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/grid/node/local/LocalNode.Builder.html#enableBiDi(boolean)" class="member-name-link">enableBiDi(boolean)</a> - Method in class org.openqa.selenium.grid.node.local.<a href="org/openqa/selenium/grid/node/local/LocalNode.Builder.html" title="class in org.openqa.selenium.grid.node.local">LocalNode.Builder</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/grid/node/config/NodeFlags.html#enableCdp" class="member-name-link">enableCdp</a> - Variable in class org.openqa.selenium.grid.node.config.<a href="org/openqa/selenium/grid/node/config/NodeFlags.html" title="class in org.openqa.selenium.grid.node.config">NodeFlags</a></dt>
@@ -4851,7 +4859,7 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Capability that defines launch API of IE used by IEDriverServer.</div>
 </dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#forEachHeader(java.util.function.BiConsumer)" class="member-name-link">forEachHeader(BiConsumer&lt;String, String&gt;)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#forEachHeader(java.util.function.BiConsumer)" class="member-name-link">forEachHeader(BiConsumer&lt;String, String&gt;)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Calls the <code>action</code> for all headers set.</div>
 </dd>
@@ -5415,7 +5423,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><a href="org/openqa/selenium/grid/jmx/MBean.html#getAttribute(java.lang.String)" class="member-name-link">getAttribute(String)</a> - Method in class org.openqa.selenium.grid.jmx.<a href="org/openqa/selenium/grid/jmx/MBean.html" title="class in org.openqa.selenium.grid.jmx">MBean</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#getAttribute(java.lang.String)" class="member-name-link">getAttribute(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#getAttribute(java.lang.String)" class="member-name-link">getAttribute(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Retrieves a user-defined attribute of this message.</div>
 </dd>
@@ -5427,7 +5435,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><a href="org/openqa/selenium/devtools/events/DomMutationEvent.html#getAttributeName()" class="member-name-link">getAttributeName()</a> - Method in class org.openqa.selenium.devtools.events.<a href="org/openqa/selenium/devtools/events/DomMutationEvent.html" title="class in org.openqa.selenium.devtools.events">DomMutationEvent</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#getAttributeNames()" class="member-name-link">getAttributeNames()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#getAttributeNames()" class="member-name-link">getAttributeNames()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/bidi/script/NodeProperties.html#getAttributes()" class="member-name-link">getAttributes()</a> - Method in class org.openqa.selenium.bidi.script.<a href="org/openqa/selenium/bidi/script/NodeProperties.html" title="class in org.openqa.selenium.bidi.script">NodeProperties</a></dt>
 <dd>&nbsp;</dd>
@@ -5692,9 +5700,9 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/Pdf.html#getContent()" class="member-name-link">getContent()</a> - Method in class org.openqa.selenium.<a href="org/openqa/selenium/Pdf.html" title="class in org.openqa.selenium">Pdf</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#getContent()" class="member-name-link">getContent()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#getContent()" class="member-name-link">getContent()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#getContentEncoding()" class="member-name-link">getContentEncoding()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#getContentEncoding()" class="member-name-link">getContentEncoding()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/ContextAware.html#getContext()" class="member-name-link">getContext()</a> - Method in interface org.openqa.selenium.<a href="org/openqa/selenium/ContextAware.html" title="interface in org.openqa.selenium">ContextAware</a></dt>
 <dd>
@@ -6227,11 +6235,11 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/logging/LocalLogs.html#getHandlerBasedLoggerInstance(org.openqa.selenium.logging.LoggingHandler,java.util.Set)" class="member-name-link">getHandlerBasedLoggerInstance(LoggingHandler, Set&lt;String&gt;)</a> - Static method in class org.openqa.selenium.logging.<a href="org/openqa/selenium/logging/LocalLogs.html" title="class in org.openqa.selenium.logging">LocalLogs</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#getHeader(java.lang.String)" class="member-name-link">getHeader(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#getHeader(java.lang.String)" class="member-name-link">getHeader(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Returns the value of the first header with the <code>name</code> (case-insensitive).</div>
 </dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#getHeaderNames()" class="member-name-link">getHeaderNames()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#getHeaderNames()" class="member-name-link">getHeaderNames()</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Returns an iterable with all the names of the headers set.</div>
 </dd>
@@ -6239,7 +6247,7 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/bidi/network/ResponseData.html#getHeaders()" class="member-name-link">getHeaders()</a> - Method in class org.openqa.selenium.bidi.network.<a href="org/openqa/selenium/bidi/network/ResponseData.html" title="class in org.openqa.selenium.bidi.network">ResponseData</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#getHeaders(java.lang.String)" class="member-name-link">getHeaders(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#getHeaders(java.lang.String)" class="member-name-link">getHeaders(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Returns an iterable of the values of headers with the <code>name</code> (case-insensitive).</div>
 </dd>
@@ -8769,8 +8777,14 @@ loadScripts(document, 'script');</script>
 <dt><a href="org/openqa/selenium/grid/web/Resource.html#isDirectory()" class="member-name-link">isDirectory()</a> - Method in interface org.openqa.selenium.grid.web.<a href="org/openqa/selenium/grid/web/Resource.html" title="interface in org.openqa.selenium.grid.web">Resource</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.FileChecker.html#isDirectory()" class="member-name-link">isDirectory()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.FileChecker.html" title="class in org.openqa.selenium.internal">Require.FileChecker</a></dt>
-<dd>&nbsp;</dd>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated.</span></div>
+&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.FileStateChecker.html#isDirectory()" class="member-name-link">isDirectory()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.FileStateChecker.html" title="class in org.openqa.selenium.internal">Require.FileStateChecker</a></dt>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated.</span></div>
+&nbsp;</dd>
+<dt><a href="org/openqa/selenium/internal/Require.PathChecker.html#isDirectory()" class="member-name-link">isDirectory()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.PathChecker.html" title="class in org.openqa.selenium.internal">Require.PathChecker</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.PathStateChecker.html#isDirectory()" class="member-name-link">isDirectory()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.PathStateChecker.html" title="class in org.openqa.selenium.internal">Require.PathStateChecker</a></dt>
 <dd>&nbsp;</dd>
@@ -8806,10 +8820,20 @@ loadScripts(document, 'script');</script>
 <dt><a href="org/openqa/selenium/bidi/Connection.html#isEventSubscribed(org.openqa.selenium.bidi.Event)" class="member-name-link">isEventSubscribed(Event&lt;X&gt;)</a> - Method in class org.openqa.selenium.bidi.<a href="org/openqa/selenium/bidi/Connection.html" title="class in org.openqa.selenium.bidi">Connection</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.FileStateChecker.html#isExecutable()" class="member-name-link">isExecutable()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.FileStateChecker.html" title="class in org.openqa.selenium.internal">Require.FileStateChecker</a></dt>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated.</span></div>
+&nbsp;</dd>
+<dt><a href="org/openqa/selenium/internal/Require.PathStateChecker.html#isExecutable()" class="member-name-link">isExecutable()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.PathStateChecker.html" title="class in org.openqa.selenium.internal">Require.PathStateChecker</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.FileChecker.html#isFile()" class="member-name-link">isFile()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.FileChecker.html" title="class in org.openqa.selenium.internal">Require.FileChecker</a></dt>
-<dd>&nbsp;</dd>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated.</span></div>
+&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.FileStateChecker.html#isFile()" class="member-name-link">isFile()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.FileStateChecker.html" title="class in org.openqa.selenium.internal">Require.FileStateChecker</a></dt>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated.</span></div>
+&nbsp;</dd>
+<dt><a href="org/openqa/selenium/internal/Require.PathChecker.html#isFile()" class="member-name-link">isFile()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.PathChecker.html" title="class in org.openqa.selenium.internal">Require.PathChecker</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.PathStateChecker.html#isFile()" class="member-name-link">isFile()</a> - Method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.PathStateChecker.html" title="class in org.openqa.selenium.internal">Require.PathStateChecker</a></dt>
 <dd>&nbsp;</dd>
@@ -11654,7 +11678,7 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Removes all the credentials from the authenticator.</div>
 </dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#removeAttribute(java.lang.String)" class="member-name-link">removeAttribute(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#removeAttribute(java.lang.String)" class="member-name-link">removeAttribute(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/virtualauthenticator/VirtualAuthenticator.html#removeCredential(byte%5B%5D)" class="member-name-link">removeCredential(byte[])</a> - Method in interface org.openqa.selenium.virtualauthenticator.<a href="org/openqa/selenium/virtualauthenticator/VirtualAuthenticator.html" title="interface in org.openqa.selenium.virtualauthenticator">VirtualAuthenticator</a></dt>
 <dd>
@@ -11666,7 +11690,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><a href="org/openqa/selenium/grid/sessionqueue/RemoveFromSessionQueue.html" class="type-name-link" title="class in org.openqa.selenium.grid.sessionqueue">RemoveFromSessionQueue</a> - Class in <a href="org/openqa/selenium/grid/sessionqueue/package-summary.html">org.openqa.selenium.grid.sessionqueue</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#removeHeader(java.lang.String)" class="member-name-link">removeHeader(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#removeHeader(java.lang.String)" class="member-name-link">removeHeader(String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Removes all headers with the <code>name</code> (case-insensitive).</div>
 </dd>
@@ -11736,10 +11760,16 @@ loadScripts(document, 'script');</script>
 <dt><a href="org/openqa/selenium/internal/Require.ArgumentChecker.html" class="type-name-link" title="class in org.openqa.selenium.internal">Require.ArgumentChecker</a>&lt;<a href="org/openqa/selenium/internal/Require.ArgumentChecker.html" title="type parameter in Require.ArgumentChecker">T</a>&gt; - Class in <a href="org/openqa/selenium/internal/package-summary.html">org.openqa.selenium.internal</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.FileChecker.html" class="type-name-link" title="class in org.openqa.selenium.internal">Require.FileChecker</a> - Class in <a href="org/openqa/selenium/internal/package-summary.html">org.openqa.selenium.internal</a></dt>
-<dd>&nbsp;</dd>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated, for removal: This API element is subject to removal in a future version.</span></div>
+</dd>
 <dt><a href="org/openqa/selenium/internal/Require.FileStateChecker.html" class="type-name-link" title="class in org.openqa.selenium.internal">Require.FileStateChecker</a> - Class in <a href="org/openqa/selenium/internal/package-summary.html">org.openqa.selenium.internal</a></dt>
-<dd>&nbsp;</dd>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated, for removal: This API element is subject to removal in a future version.</span></div>
+</dd>
 <dt><a href="org/openqa/selenium/internal/Require.IntChecker.html" class="type-name-link" title="class in org.openqa.selenium.internal">Require.IntChecker</a> - Class in <a href="org/openqa/selenium/internal/package-summary.html">org.openqa.selenium.internal</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="org/openqa/selenium/internal/Require.PathChecker.html" class="type-name-link" title="class in org.openqa.selenium.internal">Require.PathChecker</a> - Class in <a href="org/openqa/selenium/internal/package-summary.html">org.openqa.selenium.internal</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.PathStateChecker.html" class="type-name-link" title="class in org.openqa.selenium.internal">Require.PathStateChecker</a> - Class in <a href="org/openqa/selenium/internal/package-summary.html">org.openqa.selenium.internal</a></dt>
 <dd>&nbsp;</dd>
@@ -12483,7 +12513,7 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/remote/tracing/Span.html#setAttribute(java.lang.String,java.lang.Number)" class="member-name-link">setAttribute(String, Number)</a> - Method in interface org.openqa.selenium.remote.tracing.<a href="org/openqa/selenium/remote/tracing/Span.html" title="interface in org.openqa.selenium.remote.tracing">Span</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#setAttribute(java.lang.String,java.lang.Object)" class="member-name-link">setAttribute(String, Object)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#setAttribute(java.lang.String,java.lang.Object)" class="member-name-link">setAttribute(String, Object)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/remote/tracing/empty/NullSpan.html#setAttribute(java.lang.String,java.lang.String)" class="member-name-link">setAttribute(String, String)</a> - Method in class org.openqa.selenium.remote.tracing.empty.<a href="org/openqa/selenium/remote/tracing/empty/NullSpan.html" title="class in org.openqa.selenium.remote.tracing.empty">NullSpan</a></dt>
 <dd>&nbsp;</dd>
@@ -12551,11 +12581,11 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/remote/RemoteWebDriver.html#setCommandExecutor(org.openqa.selenium.remote.CommandExecutor)" class="member-name-link">setCommandExecutor(CommandExecutor)</a> - Method in class org.openqa.selenium.remote.<a href="org/openqa/selenium/remote/RemoteWebDriver.html" title="class in org.openqa.selenium.remote">RemoteWebDriver</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#setContent(java.util.function.Supplier)" class="member-name-link">setContent(Supplier&lt;InputStream&gt;)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#setContent(java.util.function.Supplier)" class="member-name-link">setContent(Supplier&lt;InputStream&gt;)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="deprecation-block"><span class="deprecated-label">Deprecated.</span></div>
 </dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#setContent(org.openqa.selenium.remote.http.Contents.Supplier)" class="member-name-link">setContent(Contents.Supplier)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#setContent(org.openqa.selenium.remote.http.Contents.Supplier)" class="member-name-link">setContent(Contents.Supplier)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/firefox/FirefoxDriver.html#setContext(org.openqa.selenium.firefox.FirefoxCommandContext)" class="member-name-link">setContext(FirefoxCommandContext)</a> - Method in class org.openqa.selenium.firefox.<a href="org/openqa/selenium/firefox/FirefoxDriver.html" title="class in org.openqa.selenium.firefox">FirefoxDriver</a></dt>
 <dd>&nbsp;</dd>
@@ -12645,7 +12675,7 @@ loadScripts(document, 'script');</script>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/virtualauthenticator/VirtualAuthenticatorOptions.html#setHasUserVerification(boolean)" class="member-name-link">setHasUserVerification(boolean)</a> - Method in class org.openqa.selenium.virtualauthenticator.<a href="org/openqa/selenium/virtualauthenticator/VirtualAuthenticatorOptions.html" title="class in org.openqa.selenium.virtualauthenticator">VirtualAuthenticatorOptions</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="org/openqa/selenium/remote/http/HttpRequest.html#setHeader(java.lang.String,java.lang.String)" class="member-name-link">setHeader(String, String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpRequest.html" title="class in org.openqa.selenium.remote.http">HttpRequest</a></dt>
+<dt><a href="org/openqa/selenium/remote/http/HttpResponse.html#setHeader(java.lang.String,java.lang.String)" class="member-name-link">setHeader(String, String)</a> - Method in class org.openqa.selenium.remote.http.<a href="org/openqa/selenium/remote/http/HttpResponse.html" title="class in org.openqa.selenium.remote.http">HttpResponse</a></dt>
 <dd>
 <div class="block">Removes all headers with the <code>name</code> (case-insensitive) and adds a header with the <code>
  value</code>.</div>
@@ -12693,6 +12723,8 @@ loadScripts(document, 'script');</script>
 <dt><a href="org/openqa/selenium/logging/NeedsLocalLogs.html#setLocalLogs(org.openqa.selenium.logging.LocalLogs)" class="member-name-link">setLocalLogs(LocalLogs)</a> - Method in interface org.openqa.selenium.logging.<a href="org/openqa/selenium/logging/NeedsLocalLogs.html" title="interface in org.openqa.selenium.logging">NeedsLocalLogs</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/remote/HttpCommandExecutor.html#setLocalLogs(org.openqa.selenium.logging.LocalLogs)" class="member-name-link">setLocalLogs(LocalLogs)</a> - Method in class org.openqa.selenium.remote.<a href="org/openqa/selenium/remote/HttpCommandExecutor.html" title="class in org.openqa.selenium.remote">HttpCommandExecutor</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="org/openqa/selenium/remote/TracedCommandExecutor.html#setLocalLogs(org.openqa.selenium.logging.LocalLogs)" class="member-name-link">setLocalLogs(LocalLogs)</a> - Method in class org.openqa.selenium.remote.<a href="org/openqa/selenium/remote/TracedCommandExecutor.html" title="class in org.openqa.selenium.remote">TracedCommandExecutor</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/bidi/script/SetLocalValue.html" class="type-name-link" title="class in org.openqa.selenium.bidi.script">SetLocalValue</a> - Class in <a href="org/openqa/selenium/bidi/script/package-summary.html">org.openqa.selenium.bidi.script</a></dt>
 <dd>&nbsp;</dd>
@@ -13227,7 +13259,9 @@ loadScripts(document, 'script');</script>
 <div class="block">Initiates tab mirroring for the current browser tab on the specified device.</div>
 </dd>
 <dt><a href="org/openqa/selenium/internal/Require.html#state(java.lang.String,java.io.File)" class="member-name-link">state(String, File)</a> - Static method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.html" title="class in org.openqa.selenium.internal">Require</a></dt>
-<dd>&nbsp;</dd>
+<dd>
+<div class="deprecation-block"><span class="deprecated-label">Deprecated, for removal: This API element is subject to removal in a future version.</span></div>
+</dd>
 <dt><a href="org/openqa/selenium/internal/Require.html#state(java.lang.String,java.nio.file.Path)" class="member-name-link">state(String, Path)</a> - Static method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.html" title="class in org.openqa.selenium.internal">Require</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="org/openqa/selenium/internal/Require.html#state(java.lang.String,T)" class="member-name-link">state(String, T)</a> - Static method in class org.openqa.selenium.internal.<a href="org/openqa/selenium/internal/Require.html" title="class in org.openqa.selenium.internal">Require</a></dt>
